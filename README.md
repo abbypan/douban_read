@@ -1,9 +1,10 @@
 # douban_read
+
 download book from https://read.douban.com/  豆瓣阅读
 
 # install
 
-perl, calibre, firefox, firefox addon: mozrepl
+安装 perl, calibre, firefox, firefox addon: mozrepl
 
     $ cpan App::cpanminus
     $ cpanm WWW::Mechanize::Firefox
@@ -12,6 +13,8 @@ perl, calibre, firefox, firefox addon: mozrepl
     $ cpanm Encode::Locale
 
 # usage
+
+打开firefox，登录豆瓣阅读，启动mozrepl
 
 perl douban_read.pl [first chapter url of the book]
 
