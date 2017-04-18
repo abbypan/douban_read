@@ -3,7 +3,7 @@ download book from https://read.douban.com/  豆瓣阅读
 
 # install
 
-perl, calibre, firefox, firefox addone mozrepl
+perl, calibre, firefox, firefox addon: mozrepl
 
     $ cpan App::cpanminus
     $ cpanm WWW::Mechanize::Firefox
